@@ -6,7 +6,7 @@ export GOTMDIR=$HOME/tools/gotm/code
 export ERSEMDIR=$HOME/tools/ersem/code
 export FABM_PREFIX=$HOME/tools/fabm/build/gotm
 export GOTM_PREFIX=$HOME/tools/gotm/build
-COMPILER=ifort
+export COMPILER=ifort
 
 # download fabm code
 if [ -d $HOME/tools/fabm/build/gotm/models/gotm ];then
