@@ -24,7 +24,7 @@ if [ -d $ERSEMDIR/src ];then
 	echo "Step2: ersem had been downloaded"
 else
 	git clone git@gitlab.ecosystem-modelling.pml.ac.uk:stable/ersem.git $ERSEMDIR
-  git clone git@gitlab.ecosystem-modelling.pml.ac.uk:stable/gotm-fabm-ersem-configurations.git /home/usr0/n70110d/tools/ersem/gfe_configurations
+        git clone git@gitlab.ecosystem-modelling.pml.ac.uk:stable/gotm-fabm-ersem-configurations.git /home/usr0/n70110d/tools/ersem/gfe_configurations
 fi
 
 # download gotm code
