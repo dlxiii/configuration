@@ -38,7 +38,7 @@ else
 	make install
 	echo ' '>> ~/.bashrc
 	echo '# '$DATETIME': add gotm in fabm-gotm-ersem environment to the path'>> ~/.bashrc
-  echo 'export PATH="$HOME/tools/gotm/build:$PATH"'>> ~/.bashrc
+        echo 'export PATH="$HOME/tools/gotm/build:$PATH"'>> ~/.bashrc
 	echo ' '>> ~/.bashrc
   source ~/.bashrc
 fi
